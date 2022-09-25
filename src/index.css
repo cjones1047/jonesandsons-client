@@ -1,0 +1,25 @@
+@font-face {
+  font-family: aubrey;
+  src: 
+    url('../src/fonts/AUBREY1__.TTF')
+    format('truetype');
+}
+
+@font-face {
+  font-family: 'Kanit';
+  src:
+    url('../src/fonts/Kanit-ExtraLight.ttf')
+    format('truetype')
+}
+
+body {
+  margin: 0;
+  font-family: 'Kanit', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
