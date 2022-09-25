@@ -8,6 +8,7 @@ import AutoDismissAlert from './components/shared/AutoDismissAlert/AutoDismissAl
 import Header from './components/shared/Header'
 import Home from './components/Home.js'
 import Project from './components/projects/Project'
+import Gallery from './components/Gallery'
 
 const App = () => {
 
@@ -52,6 +53,15 @@ const App = () => {
 					path='/my-projects' 
 					element={
 						<Project 
+							msgAlert={msgAlert}
+							viewportWidth={viewportWidth}
+						/>
+					}
+				/>
+				<Route 
+					path='/gallery' 
+					element={
+						<Gallery 
 							msgAlert={msgAlert}
 							viewportWidth={viewportWidth}
 						/>

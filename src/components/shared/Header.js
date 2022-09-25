@@ -13,7 +13,8 @@ import Container from '@mui/material/Container';
 
 let pages = [
 	{ str: 'About Me', link: ''},
-	{ str: 'Projects', link: 'my-projects'}
+	{ str: 'Projects', link: 'my-projects'},
+	{ str: 'Gallery', link: 'gallery'}
 ]
 
 const theme = createTheme({
